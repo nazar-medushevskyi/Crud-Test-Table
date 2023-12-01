@@ -1,0 +1,99 @@
+.header {
+  background: #ffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.content-btn {
+  margin: 15px 0;
+}
+
+.tab__image {
+  width: 80px;
+  height: 60px;
+}
+
+td.indentation {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.indentation {
+  padding-top: 22px !important;
+}
+
+.container-images {
+  display: flex;
+  align-items: center;
+}
+
+.btn-danger {
+  margin: 0;
+}
+
+
+.image-bin {
+  width: 20px;
+  height: 20px;
+}
+
+.image-pencil {
+  width: 20px;
+  height: 20px;
+}
+
+.containerTextImage {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.modal-content__title {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.containerTextImage__text {
+  word-wrap: break-word;
+  word-break: break-all;
+
+}
+.containerTextImage__image {
+  width: 260px;
+  height: 220px;
+}
+
+.modal-content {
+  padding: 20px 50px !important;
+}
+
+.modal-content__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.closeEl {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-container {
+  margin: 80px auto;
+  max-width: 600px;
+  max-height: 1000px;
+  background-color: #fff;
+}
